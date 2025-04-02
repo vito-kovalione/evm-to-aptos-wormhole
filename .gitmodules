@@ -1,0 +1,6 @@
+[submodule "evm-lending-mock/lib/wormhole-solidity-sdk"]
+	path = evm-lending-mock/lib/wormhole-solidity-sdk
+	url = https://github.com/wormhole-foundation/wormhole-solidity-sdk
+[submodule "evm-lending-mock/lib/forge-std"]
+	path = evm-lending-mock/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std

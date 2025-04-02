@@ -1,0 +1,13 @@
+[package]
+name = "AptosConsumer"
+version = "0.1.0"
+authors = []
+
+[addresses]
+wormhole_receiver_addr = "0x56fc98c8d4d659918a3cdca57ad9d42b59756088e0f68ad94cba3e073c0c7cc8"
+aptos_oracle = "0x56fc98c8d4d659918a3cdca57ad9d42b59756088e0f68ad94cba3e073c0c7cc8"
+wormhole = "0x5bc11445584a763c1fa7ed39081f1b920954da14e04b32440cba863d03e19625"
+deployer = "0x0108bc32f7de18a5f6e1e7d6ee7aff9f5fc858d0d87ac0da94dd8d2a5d267d6b"
+
+[dependencies]
+Wormhole = { git = "https://github.com/wormhole-foundation/wormhole.git", subdir = "aptos/wormhole", rev = "main" } 

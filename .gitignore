@@ -1,0 +1,9 @@
+aptos-module/build
+evm-lending-mock/out
+solidity-files-cache.json
+package-lock.json
+aptos-relayer/dist
+aptos-relayer/node_modules
+evm-lending-mock/cache
+evm-lending-mock/broadcast
+.env

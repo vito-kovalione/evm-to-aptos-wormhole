@@ -1,0 +1,17 @@
+{
+  "name": "evm-lending-mock",
+  "version": "1.0.0",
+  "description": "EVM Lending Mock for Aptos Bridge",
+  "main": "index.js",
+  "scripts": {
+    "compile": "mkdir -p build && solc --bin --abi --optimize --optimize-runs=200 src/*.sol src/interfaces/*.sol src/mocks/*.sol test/*.sol -o build",
+    "deploy": "node scripts/deploy-test-contracts.js",
+    "test": "node scripts/run-tests.js"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "solc": "0.8.24"
+  }
+} 
